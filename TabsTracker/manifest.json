@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "Tabs Tracker",
+  "version": "1.0",
+  "description": "Track, Manage, and Control Your Web Time. Take Control of Your Productivity with our Powerful Tab Time Tracker!",
+  "short_description": "Track and Manage Your Web Time Efficiently with our Tab Time Tracker Extension!",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

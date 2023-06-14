@@ -1,0 +1,19 @@
+body {
+    width: 300px;
+    min-height: 150px;
+    padding: 10px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    color: aliceblue; 
+} 
+
+/* body ul {
+    list-style: none;
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
