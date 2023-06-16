@@ -5,15 +5,28 @@ body {
     border-radius: 25px;
     background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
     color: aliceblue; 
+    font-family: 'Poppins', sans-serif;
 } 
-
-/* body ul {
-    list-style: none;
-} */
 
 .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+ol {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 14px;
+}
+
+button {
+    background-color: #fc5c7d;
+    color: aliceblue;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
 }
